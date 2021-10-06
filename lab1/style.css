@@ -1,0 +1,115 @@
+.brd 
+{
+	border: 6px double gray;
+	margin-right: 10px;
+	padding-left: 6px;
+	background-color: rgba(125, 125, 125, 0.2); /* Цвет фона */ 
+}
+
+td
+{
+	padding-top: 0px;
+}
+
+body
+{
+	background-image: url(img/bg-light-4815.png);
+	font-size: 20px;
+	color: lightgray;
+}
+
+p > a
+{
+	color: lightgray;
+	text-decoration: none;
+}
+
+a:active 
+{
+	color: pink;
+}
+
+/*a:visited
+{
+	color: blue;
+}*/
+
+title:empty
+{
+
+}
+
+p:not(a)
+{
+
+}
+
+i.new:before
+{
+	content: "Страница города ";
+}
+
+html:lang(ru)
+{
+
+}
+
+input:focus
+{
+	color: red;
+}
+
+input:required
+{
+
+}
+
+p:first-child
+{
+
+}
+
+footer
+{
+	background-color: rgba(125, 125, 125, 0.5);
+	height: 80px;
+	/*text-align: center;*/
+	padding-top: 20px;
+}
+
+marquee:hover 
+{
+	pointer-events: none;
+}
+
+img:disabled
+{
+
+}
+
+
+
+header
+{
+	background-color: rgba(125, 125, 125, 0.5);
+	height: 50px;
+	text-align: center;
+}
+
+.sign 
+{
+    border: 1px solid #333; /* Параметры рамки */
+    padding: 7px; /* Поля внутри блока */
+    margin: 10px 7px 5px 5px; /* Отступы вокруг */
+    background-color: rgba(125, 125, 125, 0.5); /* Цвет фона */ 
+}
+
+.sign figcaption 
+{
+    margin: 0 auto 5px; /* Отступы вокруг абзаца */
+}
+
+tr
+{
+	vertical-align: top;
+}
